@@ -1,0 +1,7 @@
+{
+	"/api/*":{
+		"target":"http://localhost/pnow_v2/public/",
+		"secure":false,
+		"logLevel":"debug"
+	}
+}

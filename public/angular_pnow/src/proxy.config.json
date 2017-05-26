@@ -1,0 +1,7 @@
+{
+		"/public/*":{
+			"target":"http://localhost/blog/public",
+			"secure":false,
+			"logLevel":"debug"
+		}
+}
