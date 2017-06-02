@@ -31,4 +31,13 @@ class PublicPropertiesController extends ApiController
 
         return $this->jsonApi($properties);
     }
+
+    // public function history($id =null, $state = null ,$county = null)
+    // {
+       
+    //     $table = 'property_resi_history_'.$county.'_'.$state;
+    //     $data = \DB::table($table)->where('property_id', $id)->get();
+
+    //     return $this->jsonApi($data);
+    // }
 }

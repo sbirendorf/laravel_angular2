@@ -25,6 +25,8 @@ Route::get('/', function () {
 
 Route::get('api/public/properties/{state}/{county}','PublicPropertiesController@show');
 
+//Route::get('api/public/property/history/{id}/{state}/{county}','PublicPropertiesController@history');
+
 
 
 /*
